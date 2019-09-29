@@ -1,52 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Karmen's Contacts</title>
     
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <title>Karmen's Contact</title>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-  <!--top header-->  
-  <div class="content">
+  
+    <!--the nav bar entry here -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+            <span class="navbar-brand" href="#">Karmen Ortiz</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-header navbar-right pull-right" id="navbarNav">
+              <ul class="nav pull-right">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">About <!--<span class="sr-only">(current)</span>--></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+               <!-- <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a> 
+                </li> -->
+              </ul>
+            </div>
+    </nav>
+</header>
 
-    </div>
-        <header>
-            <h1 id="header1">Karmen Ortiz</h1>
+<!--Beggining of Bootstrap Container-->
+<div class="Container2">
+        <!-- Content here -->
+<h2>Contact</h2>
+    <hr/>   
+    <br>
+<!--Bootstraps Forms below-->
+<form>
+        <div class="form-group">
+          <label for="exampleInputName1">Name</label>
+          <input type="name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Jane Doe">
+          <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+        </div>
 
-            <p>
-                    <b></b>  <a href="index.html">About</a>  <a href="Portfolio.html">Portfolio</a>  <a href="contact.html">Contact</a>
-                
-                 </p>              
- <!--   
-            <ul>
-                <li><strong>About</strong></li>
-                <li><strong>Portfolio</strong></li>
-                <li><strong>Contact</strong></li>
-            </ul>
-            -->
+        <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="JaneDoe@">
+             <!--   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+              </div>
+
+<!--THIS IS THE TEXT AREA-->
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="form-group form-check">
+         <!--  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+         <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+
+</div>   
+  
             
-        </header>
-    
-    <div>
+<!--from previous portfolio-->
 
-    </div>
-
-    </header>
-        
-            
-<!--Tthis is the begining of the second container-->
+<!--
 <div>
         
 <div class="container2">
 
-    <h2>Contact</h2>
-
-    <hr/>   
-    <br>
+    
 <form>
     <label for="username">Name</label> <br>
     <input type="text" id="username" name="username" placeholder="Name" required> 
@@ -64,11 +104,30 @@
 
 </form>
 </div>
+-->
 
-<div class="footer">
-        <br>
-        copyright
-    </div>
+
+
+<!--Footer     --> 
+<nav class="navbar fixed-bottom navbar-light bg-light">
+        <a class="navbar-brand2" href="#">@copyright</a>
+</nav>       
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
 
 
 </body>

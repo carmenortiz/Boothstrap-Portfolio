@@ -1,75 +1,93 @@
+/* this where the navbar is*/
 header{
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
+/*this is my name */
+
 .navbar-brand  {
     background-color: #4aaaa5;
     font-size: 30px;
+    color: white;
     text-align: center;
     padding: 10px;
     width: 250px; 
     margin-top: 0%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-   /* margin-left: 130px; (if i put this in itlines up with the container*/
+    margin-left: 50px;
 } 
+/*this is the link to the pages: about, contact, portfolio*/
+
+.nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-align: center;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+/*only holds the background image*/
 
 body{
     background-image: url(concrete-texture.png);
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-top: :  1px solid black;
-    background-size: cover;
- /* margin: auto;
-    height: auto; */
-    width: 980px:
 }
+/*container holds my about|image|Lorem|*/
+
 .container {
     border-style: solid;
     border-width: 1px;
     border-color: #777777;
     background-color: white;
-    width: 800px;
-    margin-left: 30px;
+    width: 750px;
+    margin-left: 50px; */
 }
-
+/*this is my About Me */
 h2{
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 15px;
     font-size: 30px;
 }
-
+/* this is the break line */
 hr {
     color: #777777;
-
 }
 
 img {
     float: none;
-    padding-right: 18px;
     padding-bottom: 7px;
 }
-
+/*my paragraphs lorems*/
 p{
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    padding-left: 2px
 }
 
 /* Foother starts here*/
-footer {
- /*   position: fixed; 
-    left: 0;  
-    bottom: 0; 
-    width: 100%; */
+
+.navbar-brand2 {
     background-color: #666666;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    height: 15px;
-   border-top: 8px solid #4aaaa5;
+    width: 100%;
+    height: 45px;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 8px
 }
 
 /* CONTACTS STARTS HERE*/ 
+.Container2{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #777777;
+    background-color: white;
+    width: 750px;
+    margin-left: 50px; 
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+
 
 input[type=text], select {
     width: 98%;
@@ -108,132 +126,15 @@ input {
     font-weight: bold;
 }
 /* PORTFOLIO STARTS HERE*/
-
 .container3{
     border-style: solid;
-    border-block-start-width: 1px;
-    border-color: #dddddd;
-    padding: 30px;
-    margin: auto;
-    width: 650px;
-    height: 800px;
+    border-width: 1px;
+    border-color: #777777;
     background-color: white;
-    margin-left: 300px;
-    margin-bottom: 100px
-}
-
-div.gallery {
-    margin: 5px;
-    float: left;
-    width: 110px;
-}
-
-div.gallery:hover {
-   /* border: 2px solid #777; */
-}
-div.gallery img {
-    width: 1000%;
-    height: auto;
-}
-div.desc {
-
-    text-align: right;
-    clear: both;
-}
-
-
-
-
-
-
-
-
-
-/*
-header{
-    background-color: #ffffff;
-    
-    border-style: solid;
-    border-bottom: solid;
-    border-color: #cccccc;
-    height: 68px;
-    margin-bottom: 3%;
-    
-}
-*/
-
-/*
-     heading and background-color: #4aaaa5;
-    
-     pargraphs and text besides the heading color: #777777
-
-     main header backgorund color: #ffffff
-
-     main header border color: #cccccc
-     
-     footer background color: #666666
-
-     main content background color: #ffffff
-
-     main content border color: #dddddd
-
-     */
-
-/*
-#headerBg {
-    background-color: #ffffff;
-    width: 100%;
-    border-style: solid;
-    border-bottom: solid;
-    border-color: #cccccc;
-    height: 90px;
-    margin-bottom: 3%; 
-}   
-
-.headerMain {
-    width: 960px;
-}
-
-#headerInner {
-        background-color: #4aaaa5;
-        color: white;
-        padding: 20px;
-        width: 200px;
-        font-family: Georgia, 'Times New Roman', Times, serif; 
-        
-    }  
-
-.about-portfolio-contact {
-        font-family: Arial, Helvetica, sans-serif;
-        color: #777777;
-    
-        }
- 
-    */
-    /*
-a {
-display: inline;
-font-family: Arial, Helvetica, sans-serif;
-color: #777777;
-width: 10%;
-padding: 20px;
-float:right;
-}
-
-*/
-
-/*
-body {
-    margin: 0%;
-    padding: 0%;
-    background-image: url("../images/concrete-texture.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;    
-    background-size: cover;
-    
-}
-
-br {
-*/
+    width: 750px;
+    margin-left: 50px; 
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
 
